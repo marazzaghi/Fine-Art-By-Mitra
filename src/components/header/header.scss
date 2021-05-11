@@ -1,0 +1,20 @@
+.header { 
+  height: 250px;
+  background: #f8f8ff;
+  margin: 10px auto;
+
+  a {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797e81;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Nanum Myeongjo",serif;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+}
