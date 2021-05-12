@@ -1,3 +1,7 @@
 export default function Footer() {
-  return true
+  return (
+    <div id="footer">
+      Copyright 2021 Fine Art by Mitra. Site by Minnedev
+    </div>
+  )
 }

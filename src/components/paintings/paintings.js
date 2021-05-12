@@ -1,3 +1,7 @@
 export default function Paintings() {
-  return true
+  return (
+    <div id="paintings">
+
+    </div>
+  )
 }

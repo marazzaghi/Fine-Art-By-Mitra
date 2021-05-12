@@ -1,3 +1,7 @@
 export default function Sketches() {
-  return true
+  return (
+    <div id="sketches">
+
+    </div>
+  )
 }
