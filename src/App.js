@@ -1,5 +1,6 @@
 import './App.scss';
 import Header from './components/header/header'
+import Nav from './components/nav/nav'
 import Biography from './components/biography/biography'
 import Sketches from './components/sketches/sketches'
 import Paintings from './components/paintings/paintings'
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Nav />
       <Biography />
       <Sketches />
       <Paintings />
