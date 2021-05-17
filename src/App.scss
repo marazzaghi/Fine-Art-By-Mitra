@@ -37,4 +37,15 @@ html {
     line-height: 1.5;
     color: #797e81;
   }
+  
+  @media only screen and (max-width: 1000px) {
+    p {
+      font-size: 1em;
+      font-family: "Nanum Myeongjo",serif;
+      font-style: oblique;
+      line-height: 1.5;
+      color: #797e81;
+      text-align: justify;
+    }
+  }
 }
