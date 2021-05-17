@@ -1,8 +1,8 @@
 import React from 'react'
 import './paintings.scss'
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox-pro"
 
-import  { paintingsList } from './paintingsList'
+import  { paintingsList, paintingsCaptions } from './paintingsList'
 
 export default function Paintings() {
   return (
@@ -10,7 +10,7 @@ export default function Paintings() {
       <h2>Paintings</h2>
       <div id="paintingsContent">
         <SimpleReactLightbox>
-          <SRLWrapper>
+          <SRLWrapper customCaptions={paintingsCaptions}>
             {paintingsList.length === 0 
               ? "No Paintings Available"
               : paintingsList.map(x => (

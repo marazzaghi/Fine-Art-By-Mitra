@@ -1,3 +1,5 @@
+import { Button } from 'react-bootstrap'
+
 import boat from '../../images/paintings/boat.jpeg'
 import candle from '../../images/paintings/candle.jpeg'
 import cloth from '../../images/paintings/cloth.jpeg'
@@ -13,126 +15,245 @@ import water_lily from '../../images/paintings/water_lily.jpeg'
 import white_orchid from '../../images/paintings/white_orchid.jpeg'
 import window from '../../images/paintings/window.jpeg'
 
-
 export const paintingsList = [
   {
     src: boat,
     width: '300px',
     height: 'auto',
-    caption: 'https://google.com',
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: candle,
     width: 1067,
     height: 'auto',
-    caption: 'https://google.com',
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
-    src: cloth,
-    caption: 'Image',
-    
+    src: cloth,    
     width: 1067,
     height: 'auto',
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: fruit,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: mountain_lake,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: orange_lily,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: pink_rose,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: pitcher,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: pomegranate,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: red_skirt,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: toy_fox,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: water_lily,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: white_orchid,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
   {
     src: window,
-    caption: 'Image',
     width: 1067,
     height: 'auto',
-    
-    caption: 'https://google.com',
-    
+    caption: 
+      (
+        <Button variant="light">
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
   },
 ]
+
+export const paintingsCaptions = paintingsList.map((painting, index) => ({id: index, caption: painting.caption}))

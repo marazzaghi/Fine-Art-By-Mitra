@@ -1,5 +1,4 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
 import { Container, Row, Col } from 'react-bootstrap'
 import './biography.scss'
 import mitra from '../../images/mitra.jpeg'

@@ -1,20 +1,16 @@
 import React from 'react'
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox-pro"
 import './sketches.scss'
 
-import { sketchesList } from './sketchesList'
+import { sketchesList, sketchesCpations } from './sketchesList'
 
 export default function Sketches() {
-  if (sketchesList.length === 0) {
-    console.warn('henlo')
-  }
-
   return (
     <div id="sketches">
       <h2>Sketches</h2>
       <div id="sketchesContent">
         <SimpleReactLightbox>
-          <SRLWrapper>
+          <SRLWrapper customCaptions={sketchesCpations}>
             {sketchesList.length === 0 
               ? "No Sketches Available"
               : sketchesList.map(x => (
