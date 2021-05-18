@@ -14,15 +14,18 @@ import toy_fox from '../../images/paintings/toy_fox.jpeg'
 import water_lily from '../../images/paintings/water_lily.jpeg'
 import white_orchid from '../../images/paintings/white_orchid.jpeg'
 import window from '../../images/paintings/window.jpeg'
+import lilly from '../../images/paintings/Lilly.jpg'
 
 export const paintingsList = [
   {
     src: boat,
-    width: '300px',
-    height: 'auto',
-    caption: 
+    title: 'Boat',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button>
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -31,15 +34,36 @@ export const paintingsList = [
             Buy Now! - $100
           </a>
         </Button>
-      )
+      ),
+  },
+  {
+    src: lilly,
+    title: 'Lilly',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
+      (
+        <Button>
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      ),
   },
   {
     src: candle,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Boat',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -52,11 +76,13 @@ export const paintingsList = [
   },
   {
     src: cloth,    
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Cloth',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -69,11 +95,13 @@ export const paintingsList = [
   },
   {
     src: fruit,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Fruit',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -86,11 +114,13 @@ export const paintingsList = [
   },
   {
     src: mountain_lake,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Mountain Lake',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -103,11 +133,13 @@ export const paintingsList = [
   },
   {
     src: orange_lily,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Orange Lilly',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -120,11 +152,13 @@ export const paintingsList = [
   },
   {
     src: pink_rose,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Pink Rose',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -137,11 +171,13 @@ export const paintingsList = [
   },
   {
     src: pitcher,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Pitcher',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -154,11 +190,13 @@ export const paintingsList = [
   },
   {
     src: pomegranate,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Pomegranate',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -171,11 +209,13 @@ export const paintingsList = [
   },
   {
     src: red_skirt,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Red Skirt',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -188,11 +228,13 @@ export const paintingsList = [
   },
   {
     src: toy_fox,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Toy Fox',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -205,11 +247,13 @@ export const paintingsList = [
   },
   {
     src: water_lily,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Water Lilly',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -222,11 +266,13 @@ export const paintingsList = [
   },
   {
     src: white_orchid,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'White Orchid',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -239,11 +285,13 @@ export const paintingsList = [
   },
   {
     src: window,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Window',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button >
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -256,4 +304,4 @@ export const paintingsList = [
   },
 ]
 
-export const paintingsCaptions = paintingsList.map((painting, index) => ({id: index, caption: painting.caption}))
+export const paintingsCaptions = paintingsList.map((painting, index) => ({id: index, buy: painting.caption}))

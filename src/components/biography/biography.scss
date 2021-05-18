@@ -4,8 +4,10 @@
   margin-bottom: 2em;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
-  img {
-    max-width: 100%;
-  }
+  
 }

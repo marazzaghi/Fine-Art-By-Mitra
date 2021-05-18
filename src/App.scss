@@ -25,7 +25,7 @@ html {
     font-size: 36px;
     font-style: oblique;
     color: #797e81;
-    border-bottom: 1px solid #797e81;
+    // border-bottom: 1px solid #797e81;
     padding-bottom: 18px;
   }
   
@@ -37,7 +37,7 @@ html {
     line-height: 1.5;
     color: #797e81;
   }
-  
+
   @media only screen and (max-width: 1000px) {
     p {
       font-size: 1em;
@@ -47,5 +47,47 @@ html {
       color: #797e81;
       text-align: justify;
     }
+  }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff2d;
+  background: #f8f8ff;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.navBar {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  a {
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #797e81;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Brush Script MT", "Snell Roundhand",cursive;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #797e81!important;
+  }
+
+  a:hover {
+    color: #C0C0C0;
+    transition-duration: 0.4s;
   }
 }
