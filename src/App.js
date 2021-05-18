@@ -29,17 +29,26 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="navBar" as="div">
-                <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                {/* <Nav.Link><Link to="/">Home</Link></Nav.Link>
                 <Nav.Link><Link to="/bio">About the Artist</Link></Nav.Link>
                 <Nav.Link><Link to="/sketches">Sketches</Link></Nav.Link>
                 <Nav.Link><Link to="/paintings">Paintings</Link></Nav.Link>
-                <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
+                <Nav.Link><Link to="/contact">Contact</Link></Nav.Link> */}
+                <Nav.Link href="#bio">About the Artist</Nav.Link>
+                <Nav.Link href="#sketches">Sketches</Nav.Link>
+                <Nav.Link href="#paintings">Paintings</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
         <div id="content">
-          <Switch>
+          <Home />
+          <Biography />
+          <Sketches />
+          <Contact />
+          <Paintings />
+          {/* <Switch>
             <Route path="/bio">
               <Biography />
             </Route>
@@ -55,7 +64,7 @@ function App() {
             <Route path="/">
               <Home />
             </Route>
-          </Switch>
+          </Switch> */}
         </div>
       </Router>
       <Footer />

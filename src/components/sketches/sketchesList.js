@@ -10,7 +10,7 @@ import lady from '../../images/sketches/30.PNG'
 export const sketchesList = [
   {
     src: lady,
-    title: 'Lady',
+    title: 'Mother',
     medium: 'Sketch',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -29,7 +29,7 @@ export const sketchesList = [
   },
   {
     src: eye,
-    title: 'Eye',
+    title: 'Eye of David',
     medium: 'Sketch',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -48,7 +48,7 @@ export const sketchesList = [
   },
   {
     src: statue,    
-    title: 'Statue',
+    title: 'Greek Statue',
     medium: 'Sketch',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -67,7 +67,7 @@ export const sketchesList = [
   },
   {
     src: cloth,    
-    title: 'Cloth',
+    title: 'The Drape',
     medium: 'Sketch',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -86,7 +86,7 @@ export const sketchesList = [
   },
   {
     src: twig,    
-    title: 'Twig',
+    title: 'Light as a Feather',
     medium: 'Sketch',
     description: 'Loreum ipsum dolor',
     cost: '100',

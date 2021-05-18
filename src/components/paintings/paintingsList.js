@@ -14,11 +14,31 @@ import toy_fox from '../../images/paintings/toy_fox.jpeg'
 import water_lily from '../../images/paintings/water_lily.jpeg'
 import white_orchid from '../../images/paintings/white_orchid.jpeg'
 import window from '../../images/paintings/window.jpeg'
+import lilly from '../../images/paintings/Lilly.jpg'
 
 export const paintingsList = [
   {
     src: boat,
     title: 'Boat',
+    medium: 'Oil',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
+      (
+        <Button>
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      ),
+  },
+  {
+    src: lilly,
+    title: 'Lilly',
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -113,7 +133,7 @@ export const paintingsList = [
   },
   {
     src: orange_lily,
-    title: 'Orange Lily',
+    title: 'Orange Lilly',
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
@@ -227,7 +247,7 @@ export const paintingsList = [
   },
   {
     src: water_lily,
-    title: 'Water Lily',
+    title: 'Water Lilly',
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
