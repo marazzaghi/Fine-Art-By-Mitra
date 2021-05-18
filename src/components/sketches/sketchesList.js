@@ -1,17 +1,41 @@
 import { Button } from 'react-bootstrap'
 
-import boat from '../../images/paintings/boat.jpeg'
-import candle from '../../images/paintings/candle.jpeg'
-import cloth from '../../images/paintings/cloth.jpeg'
+import hand from '../../images/sketches/1.PNG'
+import twig from '../../images/sketches/20.PNG'
+import cloth from '../../images/sketches/23.PNG'
+import statue from '../../images/sketches/26.PNG'
+import eye from '../../images/sketches/28.PNG'
+import lady from '../../images/sketches/30.PNG'
 
 export const sketchesList = [
   {
-    src: boat,
-    width: 300,
-    height: 'auto',
-    caption: 
+    src: lady,
+    title: 'Lady',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button>
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      ),
+  },
+  {
+    src: eye,
+    title: 'Eye',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
+      (
+        <Button>
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -23,12 +47,14 @@ export const sketchesList = [
       )
   },
   {
-    src: candle,
-    width: 1067,
-    height: 'auto',
-    caption: 
+    src: statue,    
+    title: 'Statue',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button>
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
@@ -41,11 +67,51 @@ export const sketchesList = [
   },
   {
     src: cloth,    
-    width: 1067,
-    height: 'auto',
-    caption: 
+    title: 'Cloth',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
       (
-        <Button variant="light">
+        <Button>
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
+  },
+  {
+    src: twig,    
+    title: 'Twig',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
+      (
+        <Button>
+          <a
+            href="http://simple-react-lightbox.dev"
+            target="__blank"
+            className="SRLCustomCaption myCustomButton"
+          >
+            Buy Now! - $100
+          </a>
+        </Button>
+      )
+  },
+  {
+    src: hand,    
+    title: 'Hand',
+    medium: 'Sketch',
+    description: 'Loreum ipsum dolor',
+    cost: '100',
+    buy: 
+      (
+        <Button>
           <a
             href="http://simple-react-lightbox.dev"
             target="__blank"
