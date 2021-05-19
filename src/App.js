@@ -46,8 +46,8 @@ function App() {
           <Home />
           <Biography />
           <Sketches />
-          <Contact />
           <Paintings />
+          <Contact />
           {/* <Switch>
             <Route path="/bio">
               <Biography />
