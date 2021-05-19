@@ -2,9 +2,16 @@
   background: #f8f8ff;
   padding: 10px;
   margin-bottom: 2em;
+  position: relative;
 
   #contactForm {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  #alert {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
