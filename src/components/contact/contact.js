@@ -25,7 +25,7 @@ export default function Contact() {
 
   function sendEmail(e) {
 
-    emailjs.send(REACT_APP_SERVICE_ID,'REACT_APP_TEMPLATE_ID',{
+    emailjs.send(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID,{
       from_name: name,
       message: message,
       reply_to: email,
