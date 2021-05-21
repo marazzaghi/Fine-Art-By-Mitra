@@ -3,7 +3,6 @@ import { Container, Row, Col, Modal } from 'react-bootstrap'
 import './modalContents.scss'
 
 export default function ModalContents(img) {
-  console.warn('img', img)
   return(
     <>
       <Modal.Header closeButton>
