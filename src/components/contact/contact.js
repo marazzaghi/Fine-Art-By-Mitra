@@ -25,23 +25,31 @@ export default function Contact() {
 
   function sendEmail(e) {
 
-    emailjs.send(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID,{
-      from_name: name,
-      message: message,
-      reply_to: email,
-      }, REACT_APP_USER_ID
-    ).then((result) => {
-        setName('')
-        setEmail('')
-        setMessage('')
-        setAlertMessage('Email sent successfully!')
-        setVariant('success')
-        setAlertOpen(true)
-    }, (error) => {
-        setAlertMessage('Something went wrong, please try again. If the issue persists, you can email us at contact@fineartbymitra.com')
-        setVariant('danger')
-        setAlertOpen(true)
-    });
+    if (name !== '' && message !== '' && email !== '') {
+      emailjs.send(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID,{
+        from_name: name,
+        message: message,
+        reply_to: email,
+        }, REACT_APP_USER_ID
+      ).then((result) => {
+          setName('')
+          setEmail('')
+          setMessage('')
+          setAlertMessage('Email sent successfully!')
+          setVariant('success')
+          setAlertOpen(true)
+      }, (error) => {
+          setAlertMessage('Something went wrong, please try again. If the issue persists, you can email us at contact@fineartbymitra.com')
+          setVariant('danger')
+          setAlertOpen(true)
+      })
+    } else {
+      setAlertMessage('All form fields are required, please fill them out. You are missing:' + (name === '' ? 'Name ' : '') + (email === '' ? '\nEmail ' : '') + (message === '' ? '\nMessage to the Artist' : ''))
+      setVariant('danger')
+      setAlertOpen(true)
+    }
+
+    
   }
 
   return (
@@ -59,18 +67,18 @@ export default function Contact() {
             <Form>
             <Form.Group controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control placeholder="Enter name" onChange={(e) => setName(e.target.value)}/>
+                <Form.Control required placeholder="Enter name" onChange={(e) => setName(e.target.value)}/>
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)}/>
+                <Form.Control required type="email" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)}/>
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
                 </Form.Text>
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message to Artist</Form.Label>
-                <Form.Control as="textarea" rows={3} onChange={(e) => setMessage(e.target.value)}/>
+                <Form.Control required as="textarea" rows={3} onChange={(e) => setMessage(e.target.value)}/>
               </Form.Group>
               <Button variant="primary" onClick={() => sendEmail({name, email, message})}>
                 Submit
