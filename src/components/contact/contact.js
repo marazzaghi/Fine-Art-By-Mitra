@@ -47,16 +47,11 @@ export default function Contact() {
   return (
     <div id="contact">
       <h2 onClick={() => setOpen(!open)}>Contact the Artist</h2>
-      <Alert show={alertOpen} variant={variant} id="alert">
+      <Alert show={alertOpen} variant={variant} id="alert" dismissible onClose={() => setAlertOpen(false)}>
+        <Alert.Heading />
         <p>
          {alertMessage}
         </p>
-        <hr />
-        <div className="d-flex justify-content-end">
-          <Button onClick={() => setAlertOpen(false)} variant={"outline-" + variant}>
-            Close
-          </Button>
-        </div>
       </Alert>
       <Row>
         <Col lg={6} id="contactForm">
