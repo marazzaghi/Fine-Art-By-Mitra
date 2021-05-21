@@ -25,19 +25,19 @@ function App() {
       <Router>
         <Header />
         <div className="sticky">
-          <Navbar expand="lg">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar expand="lg" collapseOnSelect>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse collapseOnSelect id="responsive-navbar-nav">
               <Nav className="navBar" as="div">
-                {/* <Nav.Link><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link><Link to="/bio">About the Artist</Link></Nav.Link>
-                <Nav.Link><Link to="/sketches">Sketches</Link></Nav.Link>
-                <Nav.Link><Link to="/paintings">Paintings</Link></Nav.Link>
-                <Nav.Link><Link to="/contact">Contact</Link></Nav.Link> */}
-                <Nav.Link href="#bio">About the Artist</Nav.Link>
-                <Nav.Link href="#sketches">Sketches</Nav.Link>
-                <Nav.Link href="#paintings">Paintings</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                {/* <Nav.Link eventKey="home"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link eventKey="ata"><Link to="/bio">About the Artist</Link></Nav.Link>
+                <Nav.Link eventKey="sketches"><Link to="/sketches">Sketches</Link></Nav.Link>
+                <Nav.Link eventKey="paintings"><Link to="/paintings">Paintings</Link></Nav.Link>
+                <Nav.Link eventKey="contact"><Link to="/contact">Contact</Link></Nav.Link> */}
+                <Nav.Link activeClass="active" eventKey="ata" href="#bio">About the Artist</Nav.Link>
+                <Nav.Link activeClass="active" eventKey="sketches" href="#sketches">Sketches</Nav.Link>
+                <Nav.Link activeClass="active" eventKey="paintings" href="#paintings">Paintings</Nav.Link>
+                <Nav.Link activeClass="active" eventKey="contact" href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

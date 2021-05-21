@@ -50,6 +50,13 @@ html {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .App {
+    padding: 1em;
+    width: 100%;
+  }
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;

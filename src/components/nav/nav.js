@@ -8,14 +8,14 @@ export default function CustomNav() {
   return (
     <>
       <div className="sticky">
-        <Navbar expand="lg">
+        <Navbar expand="lg" collapseOnSelect>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse collapseOnSelect id="basic-navbar-nav">
             <Nav className="navBar" as="div">
-              <Nav.Link href="#bio">Biography</Nav.Link>
-              <Nav.Link href="#sketches">Sketches</Nav.Link>
-              <Nav.Link href="#paintings">Paintings</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link eventKey="1" href="#bio">Biography</Nav.Link>
+              <Nav.Link eventKey="1" href="#sketches">Sketches</Nav.Link>
+              <Nav.Link eventKey="1" href="#paintings">Paintings</Nav.Link>
+              <Nav.Link eventKey="1" href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
