@@ -1,5 +1,3 @@
-import { Button } from 'react-bootstrap'
-
 import boat from '../../images/paintings/boat.jpeg'
 import candle from '../../images/paintings/candle.jpeg'
 import cloth from '../../images/paintings/cloth.jpeg'
@@ -23,18 +21,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button>
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      ),
   },
   {
     src: lilly,
@@ -42,37 +28,13 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button>
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      ),
   },
   {
     src: candle,
-    title: 'Boat',
+    title: 'Candle',
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: cloth,    
@@ -80,18 +42,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: fruit,
@@ -99,18 +49,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: mountain_lake,
@@ -118,18 +56,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: orange_lily,
@@ -137,18 +63,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: pink_rose,
@@ -156,18 +70,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: pitcher,
@@ -175,18 +77,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: pomegranate,
@@ -194,18 +84,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: red_skirt,
@@ -213,18 +91,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: toy_fox,
@@ -232,18 +98,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: water_lily,
@@ -251,18 +105,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: white_orchid,
@@ -270,18 +112,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: window,
@@ -289,18 +119,6 @@ export const paintingsList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
 ]
 

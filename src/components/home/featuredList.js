@@ -1,5 +1,3 @@
-import { Button } from 'react-bootstrap'
-
 import boat from '../../images/paintings/boat.jpeg'
 import candle from '../../images/paintings/candle.jpeg'
 import cloth from '../../images/paintings/cloth.jpeg'
@@ -11,18 +9,6 @@ export const featuredList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button>
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      ),
   },
   {
     src: candle,
@@ -30,18 +16,6 @@ export const featuredList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
   {
     src: cloth,    
@@ -49,17 +23,5 @@ export const featuredList = [
     medium: 'Oil',
     description: 'Loreum ipsum dolor',
     cost: '100',
-    buy: 
-      (
-        <Button >
-          <a
-            href="http://simple-react-lightbox.dev"
-            target="__blank"
-            className="SRLCustomCaption myCustomButton"
-          >
-            Buy Now! - $100
-          </a>
-        </Button>
-      )
   },
 ]
