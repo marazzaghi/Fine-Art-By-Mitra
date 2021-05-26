@@ -28,6 +28,18 @@ export default function ModalContents(img) {
     setAlertOpen(true)
     return actions.order.capture()
   }
+
+  const onError = () => {
+    setAlertMessage('Error in purchasing')
+    setVariant('danger')
+    setAlertOpen(true)
+  }
+
+  const onCancel = () => {
+    setAlertMessage('Transaction Canceled')
+    setVariant('warning')
+    setAlertOpen(true)
+  }
   
   return(
     <>
@@ -57,8 +69,11 @@ export default function ModalContents(img) {
           </p>
         </Alert>
         <PayPalButton
+          style={{ layout: "horizontal", color: "silver", shape: "pill", label: "buynow", height: 40 }}
           createOrder={(data, actions) => createOrder({cost: img.cost, desc: img.title}, actions)}
           onApprove={(data, actions) => onApprove(data, actions)}
+          onError={onError}
+          onCancel={onCancel}
         />
       </Modal.Footer>
     </>
