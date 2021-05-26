@@ -1,6 +1,6 @@
-import boat from '../../images/paintings/boat.jpeg'
-import candle from '../../images/paintings/candle.jpeg'
-import cloth from '../../images/paintings/cloth.jpeg'
+import boat from './paintings/boat.jpeg'
+import candle from './paintings/candle.jpeg'
+import cloth from './paintings/cloth.jpeg'
 
 export const featuredList = [
   {

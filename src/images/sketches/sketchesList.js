@@ -1,9 +1,9 @@
-import hand from '../../images/sketches/1.PNG'
-import twig from '../../images/sketches/20.PNG'
-import cloth from '../../images/sketches/23.PNG'
-import statue from '../../images/sketches/26.PNG'
-import eye from '../../images/sketches/28.PNG'
-import lady from '../../images/sketches/30.PNG'
+import hand from './1.PNG'
+import twig from './20.PNG'
+import cloth from './23.PNG'
+import statue from './26.PNG'
+import eye from './28.PNG'
+import lady from './30.PNG'
 
 export const sketchesList = [
   {
