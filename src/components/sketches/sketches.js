@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Container, Row, Col, Modal, Collapse } from 'react-bootstrap'
+import { Modal, Collapse } from 'react-bootstrap'
 import './sketches.scss'
 
 import ModalContents from '../modalContents/modalContents'
 
-import { sketchesList, sketchesCpations } from './sketchesList'
+import { sketchesList } from '../../images/sketches/sketchesList'
 
 export default function Sketches() {
   const [show, setShow] = useState(false)

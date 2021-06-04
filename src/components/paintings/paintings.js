@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './paintings.scss'
-import { Container, Row, Col, Modal, Collapse } from 'react-bootstrap'
+import { Modal, Collapse } from 'react-bootstrap'
 
 import ModalContents from '../modalContents/modalContents'
 
-import  { paintingsList, paintingsCaptions } from './paintingsList'
+import  { paintingsList } from '../../images/paintings/paintingsList'
 
 export default function Paintings() {
   const [show, setShow] = useState(false)

@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
-import { Container, Row, Col, Modal, Button } from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 import ModalContents from '../modalContents/modalContents'
 import './home.scss'
-import leaf from '../../images/sketches/20.PNG'
-import toyFox from '../../images/paintings/toy_fox.jpeg'
-import window from '../../images/paintings/window.jpeg'
 
-import { featuredList } from './featuredList'
+import { featuredList } from '../../images/featuredList'
 
 export default function Home() {
   const [show, setShow] = useState(false);

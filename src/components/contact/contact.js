@@ -62,9 +62,12 @@ export default function Contact() {
         </p>
       </Alert>
       <Row>
-        <Col lg={6} id="contactForm">
+        <Col lg={7} id="contactForm">
           <Collapse in={open}>
+            
             <Form>
+            <p>Commissions: Contact us to discuss commissioning a piece of art of your own.</p>
+            <p>Posters: Prints available upon request.</p>
             <Form.Group controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
                 <Form.Control required placeholder="Enter name" onChange={(e) => setName(e.target.value)}/>
