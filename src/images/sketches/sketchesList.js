@@ -1,51 +1,68 @@
-import hand from './1.PNG'
-import twig from './20.PNG'
-import cloth from './23.PNG'
-import statue from './26.PNG'
-import eye from './28.PNG'
-import lady from './30.PNG'
+import drape from './Drape in pencil-min.png'
+import mother from './Mother-min.png'
+import fallenFeather from './Fallen Feather-min.png'
+import handSketch from './Hand Sketch-min.JPG'
+import greekStatue from './Greek Statue-min.png'
+import eyeOfData from './Eye of David-min.png'
+import gentleHand from './Gentle Hand-min.png'
+
+
 
 export const sketchesList = [
   {
-    src: lady,
+    src: drape,
+    title: 'Drape in Pencil',
+    size: '11 x 16',
+    medium: 'Graphite on hand-made paper',
+    description: '',
+    cost: '',
+  },
+  {
+    src: mother,
     title: 'Mother',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    size: '7 x 7',
+    medium: 'Graphite',
+    description: '',
+    cost: '',
   },
   {
-    src: eye,
-    title: 'Eye of David',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: fallenFeather,
+    title: 'Fallen Feather',
+    size: '8 x 10',
+    medium: 'Graphite',
+    description: '',
+    cost: '',
   },
   {
-    src: statue,    
+    src: handSketch,
+    title: 'Hand Sketch',
+    size: '6 x 11',
+    medium: 'Graphite on hand-made paper',
+    description: '',
+    cost: '',
+  },
+  {
+    src: greekStatue,
     title: 'Greek Statue',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    size: '11 x 18',
+    medium: 'Graphite on hand-made paper',
+    description: '',
+    cost: '',
   },
   {
-    src: cloth,    
-    title: 'The Drape',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: eyeOfData,
+    title: 'Eye of Data',
+    size: '6 x 8',
+    medium: 'Charcoal on hand-made paper',
+    description: '',
+    cost: '',
   },
   {
-    src: twig,    
-    title: 'Light as a Feather',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: gentleHand,
+    title: 'Gentle Hand',
+    size: '8 x 16',
+    medium: 'Charcoal on hand-made paper',
+    description: '',
+    cost: '',
   },
-  {
-    src: hand,    
-    title: 'Hand',
-    medium: 'Sketch',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  }
 ]

@@ -1,27 +1,30 @@
-import boat from './paintings/boat.jpeg'
-import candle from './paintings/candle.jpeg'
-import cloth from './paintings/cloth.jpeg'
+import grandpasBook from './paintings/Grandpa\'s Book-min.JPG'
+import lilly from './paintings/Lilly-min.jpg'
+import toyFox from './paintings/Toy fox-min.JPG'
 
 export const featuredList = [
   {
-    src: boat,
-    title: 'Boat',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: grandpasBook,
+    title: 'Grandpa\'s Book',
+    size: '12 x 16',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
   },
   {
-    src: candle,
-    title: 'Boat',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: lilly,
+    title: 'White Lilly',
+    size: '16 x 20',
+    medium: 'Oil on Hand-Made Canvas',
+    description: '',
+    cost: '',
   },
   {
-    src: cloth,    
-    title: 'Cloth',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: toyFox,
+    title: 'Toy Fox',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
   },
 ]

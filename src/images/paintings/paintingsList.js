@@ -1,125 +1,156 @@
-import boat from './boat.jpeg'
-import candle from './candle.jpeg'
-import cloth from './cloth.jpeg'
-import fruit from './fruit.jpeg'
-import mountain_lake from './mountain_lake.jpeg'
-import orange_lily from './orange_lily.jpeg'
-import pink_rose from './pink_rose.jpeg'
-import pitcher from './pitcher.jpeg'
-import pomegranate from './pomegranate.jpeg'
-import red_skirt from './red_skirt.jpeg'
-import toy_fox from './toy_fox.jpeg'
-import water_lily from './water_lily.jpeg'
-import white_orchid from './white_orchid.jpeg'
-import window from './window.jpeg'
-import lilly from './Lilly.jpg'
+import beautifulOrange from './Beautiful Orange-min.JPG'
+import blueHue from './Blue Hue-min.JPG'
+import coHikeTrail from './CO Hike Trail-min.jpeg'
+import drape from './Drape-min.jpg'
+import fallInRockyMountains from './Fall in Rocky Mountains-min.JPG'
+import fruitColorBurst from './Fruit Color Burst-min.JPG'
+import grandpasBook from './Grandpa\'s Book-min.JPG'
+import lilly from './Lilly-min.jpg'
+import loneBoat from './Lone Boat-min.JPG'
+import loneWaterLilly from './Lone Water Lilly-min.JPG'
+import milkPitcher from './Milk Pitcher-min.jpg'
+import pinkRose from './Pink Rose-min.jpg'
+import theWateringCan from './wateringCan.JPG'
+import theLake from './The Lake-min.JPG'
+import toyFox from './Toy fox-min.JPG'
+import whiteOrchids from './White Orchids-min.JPG'
+import grayHue from './Gray Hue-min.JPEG'
 
 export const paintingsList = [
   {
-    src: boat,
-    title: 'Boat',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    src: blueHue,
+    title: 'Blue Hue',
+    size: '9 x 12',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: grayHue,
+    title: 'Gray Hue',
+    size: '9 x 9',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: drape,
+    title: 'The Drape',
+    size: '9 x 12',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: fruitColorBurst,
+    title: 'Fruit Color Burst',
+    size: '9 x 12',
+    medium: 'Oil on Board',
+    description: '',
+    cost: '',
+  },
+  {
+    src: theWateringCan,
+    title: 'The Watering Can',
+    size: '9 x 12',
+    medium: 'Oil on Board',
+    description: '',
+    cost: '',
+  },
+  {
+    src: milkPitcher,
+    title: 'Milk Pitcher',
+    size: '12 x 16',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: grandpasBook,
+    title: 'Grandpa\'s Book',
+    size: '12 x 16',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: pinkRose,
+    title: 'Pretty Pink',
+    size: '11 x 4',
+    medium: 'Oil on Board',
+    description: '',
+    cost: '',
+  },
+  {
+    src: whiteOrchids,
+    title: 'Orchids',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: toyFox,
+    title: 'Toy Fox',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: loneBoat,
+    title: 'Lone Boat',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: theLake,
+    title: 'The Lake',
+    size: '12 x 16',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: coHikeTrail,
+    title: 'Colorado Hike',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: fallInRockyMountains,
+    title: 'Rocky Mountain Fall',
+    size: '24 x 30',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: beautifulOrange,
+    title: 'Orange Lilly',
+    size: '16 x 20',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
+  {
+    src: loneWaterLilly,
+    title: 'Lone Water Lilly',
+    size: '16 x 20',
+    medium: 'Oil on Hand-Made Canvas',
+    description: '',
+    cost: '',
   },
   {
     src: lilly,
-    title: 'Lilly',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: candle,
-    title: 'Candle',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: cloth,    
-    title: 'Cloth',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: fruit,
-    title: 'Fruit',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: mountain_lake,
-    title: 'Mountain Lake',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: orange_lily,
-    title: 'Orange Lilly',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: pink_rose,
-    title: 'Pink Rose',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: pitcher,
-    title: 'Pitcher',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: pomegranate,
-    title: 'Pomegranate',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: red_skirt,
-    title: 'Red Skirt',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: toy_fox,
-    title: 'Toy Fox',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: water_lily,
-    title: 'Water Lilly',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: white_orchid,
-    title: 'White Orchid',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
-  },
-  {
-    src: window,
-    title: 'Window',
-    medium: 'Oil',
-    description: 'Loreum ipsum dolor',
-    cost: '100',
+    title: 'White Lilly',
+    size: '16 x 20',
+    medium: 'Oil on Hand-Made Canvas',
+    description: '',
+    cost: '',
   },
 ]
-
-export const paintingsCaptions = paintingsList.map((painting, index) => ({id: index, buy: painting.caption}))
