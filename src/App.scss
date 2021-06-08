@@ -1,10 +1,16 @@
 @import url(//db.onlinewebfonts.com/c/b6539b6d3432c623d8d4f9cc2a29589e?family=Berlin+Sans+FB+Demi);
+@font-face {
+  font-family: 'BerlinSans';
+  src: url('./fonts/berlin-sans-fb-demi-bold.ttf'); /* IE9 Compat Modes */
+  src: url('./fonts/berlin-sans-fb-demi-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 * {
-  font-family: "Berlin Sans FB Demi", "Nanum Myeongjo", serif;
+  font-family: "BerlinSans", "Nanum Myeongjo", serif;
 }
 
 .App {
@@ -36,7 +42,7 @@ html {
   
   p {
     text-align: justify;
-    font-family: "Berlin Sans FB Demi", "Nanum Myeongjo", serif;
+    font-family: "BerlinSans", "Nanum Myeongjo", serif;
     font-size: 24px;
     font-style: oblique;
     line-height: 1.5;
