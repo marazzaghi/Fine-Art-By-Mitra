@@ -49,8 +49,8 @@ export default function ModalContents(img) {
       <Modal.Body>
         <Container>
           <Row>
-            <Col xs={12} md={6}>
-              <img src={img.img} id="modalImage"/>
+            <Col xs={12} md={6} id="modalImage">
+              <img src={img.img} />
             </Col>
             <Col xs={12} md={6}>
               <h3>{img.title}</h3>

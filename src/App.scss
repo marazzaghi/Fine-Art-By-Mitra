@@ -1,5 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/b6539b6d3432c623d8d4f9cc2a29589e?family=Berlin+Sans+FB+Demi);
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Berlin Sans FB Demi", "Nanum Myeongjo", serif;
 }
 
 .App {
@@ -9,7 +14,7 @@ html {
 
   h1 {
     text-align: center;
-    font-family: "Brush Script MT", "Snell Roundhand",cursive;
+    font-family: "Brush Script MT", "Snell Roundhand", cursive;
     font-size: 56px;
     font-style: oblique;
     color: #797e81;
@@ -21,7 +26,7 @@ html {
   
   h2 {
     text-align: center;
-    font-family: "Brush Script MT", "Snell Roundhand",cursive;
+    // font-family: "Brush Script MT", "Snell Roundhand", cursive;
     font-size: 36px;
     font-style: oblique;
     color: #797e81;
@@ -31,7 +36,7 @@ html {
   
   p {
     text-align: justify;
-    font-family: "Nanum Myeongjo",serif;
+    font-family: "Berlin Sans FB Demi", "Nanum Myeongjo", serif;
     font-size: 24px;
     font-style: oblique;
     line-height: 1.5;
@@ -81,7 +86,7 @@ html {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-family: "Brush Script MT", "Snell Roundhand",cursive;
+    // font-family: "Brush Script MT", "Snell Roundhand",cursive;
     font-size: 32px;
     margin: 4px 2px;
     cursor: pointer;

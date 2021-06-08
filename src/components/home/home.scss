@@ -13,13 +13,24 @@
   column-count:         3;
   column-gap:           15px;
 
-  img {
+  img:nth-child(even) {
     width: 100% !important;
     height: auto !important;
     padding-bottom: 10px;
     display: block;
-    
   }
+
+  img:nth-child(odd) {
+    width: 80% !important;
+    height: auto !important;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
 }
 
 @media (max-width: 1000px) {
@@ -52,6 +63,11 @@
 
 #modalImage {
   width: 100%;
+  background-image: url(../../images/pictureBackground.jpg);
+  
+  img {
+    padding: 15px;
+  }
 }
 
 p {

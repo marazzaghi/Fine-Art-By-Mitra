@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <div className="sticky">
+          <Header />
           <Navbar expand="lg" collapseOnSelect>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse collapseOnSelect id="responsive-navbar-nav">

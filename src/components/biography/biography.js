@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Collapse } from 'react-bootstrap'
 import './biography.scss'
-import mitra from '../../images/mitra.jpeg'
+import mitra from '../../images/mitra.jpg'
 
 export default function Biography() {
   const [open, setOpen] = useState(false)
