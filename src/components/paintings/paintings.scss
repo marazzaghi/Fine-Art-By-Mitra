@@ -1,7 +1,11 @@
 #paintings {
   background: #f8f8ff;
-  padding: 10px;
   margin-bottom: 2em;
+
+  h2 {
+    background-color: #f8f8ff;
+    padding: 20px;
+  }
 }
 
 #paintingsContent {

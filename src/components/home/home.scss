@@ -1,5 +1,6 @@
 #home {
-  background: #f8f8ff;
+  background-image: url('../../images/siteImages/featuredArtBG.jpg');
+  background-position: bottom;
   padding: 10px;
   margin-bottom: 2em;
 }
@@ -34,6 +35,10 @@
 }
 
 @media (max-width: 1000px) {
+  #home {
+    background: #f8f8ff;
+  }
+
   #homeContent {
   -moz-column-count:    3;
   -webkit-column-count: 3;
@@ -41,6 +46,10 @@
   }
 }
 @media (max-width: 800px) {
+  #home {
+    background: #f8f8ff;
+  }
+
   #homeContent {
   -moz-column-count:    2;
   -webkit-column-count: 2;
@@ -48,6 +57,10 @@
   }
 }
 @media (max-width: 600px) {
+  #home {
+    background: #f8f8ff;
+  }
+  
   #homeContent {
   -moz-column-count:    1;
   -webkit-column-count: 1;

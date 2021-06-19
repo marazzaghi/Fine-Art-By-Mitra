@@ -1,8 +1,12 @@
 #contact {
   background: #f8f8ff;
-  padding: 10px;
   margin-bottom: 2em;
   position: relative;
+
+  h2 {
+    background-color: #f8f8ff;
+    padding: 20px;
+  }
 
   #contactForm {
     margin-right: auto;

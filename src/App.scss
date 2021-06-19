@@ -4,6 +4,11 @@
   src: url('./fonts/berlin-sans-fb-demi-bold.ttf'); /* IE9 Compat Modes */
   src: url('./fonts/berlin-sans-fb-demi-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'LoversQuarrel';
+  src: url('./fonts/LoversQuarrel-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('./fonts/LoversQuarrel-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 html {
   scroll-behavior: smooth;

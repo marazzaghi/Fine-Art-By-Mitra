@@ -8,6 +8,7 @@ import {
 import { Nav, Navbar } from 'react-bootstrap'
 
 import Header from './components/header/header'
+import SiteIntro from './components/siteIntro/siteIntro'
 import Home from './components/home/home'
 import Biography from './components/biography/biography'
 import Sketches from './components/sketches/sketches'
@@ -43,6 +44,7 @@ function App() {
           </Navbar>
         </div>
         <div id="content">
+          <SiteIntro />
           <Home />
           <Biography />
           <Sketches />
