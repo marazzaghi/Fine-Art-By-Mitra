@@ -1,5 +1,6 @@
 #home {
   background-image: url('../../images/siteImages/featuredArtBG.jpg');
+  background-size: 100% 100%;
   background-position: bottom;
   padding: 10px;
   margin-bottom: 2em;
@@ -60,7 +61,7 @@
   #home {
     background: #f8f8ff;
   }
-  
+
   #homeContent {
   -moz-column-count:    1;
   -webkit-column-count: 1;
