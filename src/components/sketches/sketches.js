@@ -20,14 +20,17 @@ export default function Sketches() {
   return (
     <div id="sketches">
       <h2 onClick={() => setOpen(!open)}>Sketches</h2>
-      <div id="featuredPaintings">
-        {sketchesList.length === 0 
-          ? "No Paintings Available"
-          : sketchesList.map(x => (
-            x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy})} />)
-          ))
-        }
-      </div>
+      {!open && 
+        (<div id="featuredPaintings">
+          {sketchesList.length === 0 
+            ? "No Paintings Available"
+            : sketchesList.map(x => (
+              x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy})} />)
+            ))
+          }
+        </div>
+        )
+      }
       <Collapse in={open}>
         <div id="paintingsContent">  
           {sketchesList.length === 0 
