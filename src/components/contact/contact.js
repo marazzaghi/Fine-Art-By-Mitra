@@ -61,10 +61,9 @@ export default function Contact() {
          {alertMessage}
         </p>
       </Alert>
-      <Row>
-        <Col lg={7} id="contactForm">
-          <Collapse in={open}>
-            
+      <Collapse in={open}>
+        <Row>
+          <Col lg={7} id="contactForm">
             <Form>
             <p>Commissions: Contact us to discuss commissioning a piece of art of your own.</p>
             <p>Posters: Prints available upon request.</p>
@@ -87,9 +86,9 @@ export default function Contact() {
                 Submit
               </Button>
             </Form>
-          </Collapse>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </Collapse>
     </div>
   )
 }

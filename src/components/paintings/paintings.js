@@ -20,6 +20,14 @@ export default function Paintings() {
   return (
     <div id="paintings">
       <h2 onClick={() => setOpen(!open)}>Paintings</h2>
+      <div id="featuredPaintings">
+        {paintingsList.length === 0 
+          ? "No Paintings Available"
+          : paintingsList.map(x => (
+            x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy})} />)
+          ))
+        }
+      </div>
       <Collapse in={open}>
         <div id="paintingsContent">  
           {paintingsList.length === 0 

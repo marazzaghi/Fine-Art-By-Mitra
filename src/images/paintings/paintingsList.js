@@ -24,6 +24,7 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: grayHue,
@@ -32,6 +33,7 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: drape,
@@ -40,6 +42,7 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: fruitColorBurst,

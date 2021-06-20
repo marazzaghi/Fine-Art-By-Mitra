@@ -30,7 +30,7 @@ export default function SiteIntro() {
       <div class="row">
         <div class="col-md-12" id="tagline">
           <h2>
-            Mitra is a practicing physician, associate professor of medicine and an artist living in Aurora, Colorado. She is classically trained in realism art...
+            Mitra is a practicing physician, associate professor of medicine and an artist living in Aurora, Colorado. She is classically trained in realism art.
           </h2>
         </div>
       </div>
