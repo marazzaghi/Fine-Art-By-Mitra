@@ -16,7 +16,6 @@ export const sketchesList = [
     medium: 'Graphite on hand-made paper',
     description: '',
     cost: '',
-    featured: true,
   },
   {
     src: mother,
@@ -51,6 +50,7 @@ export const sketchesList = [
     medium: 'Graphite on hand-made paper',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: eyeOfData,

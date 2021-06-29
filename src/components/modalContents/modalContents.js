@@ -55,6 +55,7 @@ export default function ModalContents(img) {
             <Col xs={12} md={6}>
               <h3>{img.title}</h3>
               <p><b>Medium:</b> {img.medium}</p>
+              <p><b>Size:</b> {img.size}</p>
               {img.cost && (<p><b>Cost:</b> ${img.cost}</p>)}
               {img.description && (<p><b>Artist Notes:</b> {img.description}</p>)}
             </Col>

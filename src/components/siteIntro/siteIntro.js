@@ -1,20 +1,9 @@
 import React, { useState } from 'react'
-import { Modal } from 'react-bootstrap'
-import ModalContents from '../modalContents/modalContents'
 import './siteIntro.scss'
 
-import mitra from '../../images/mitra.jpg'
+import mitra from '../../images/mitra.jpeg'
 
 export default function SiteIntro() {
-  const [show, setShow] = useState(false);
-  const [pic, setPic] = useState({})
-
-  const handleClose = () => setShow(false);
-  const handleShow = (a) => {
-    setShow(true)
-    setPic(a)
-  }
-
   return (
     <div id="siteIntro">
       <div class="row" id="firstBlock">
@@ -30,7 +19,7 @@ export default function SiteIntro() {
       <div class="row">
         <div class="col-md-12" id="tagline">
           <h2>
-            Mitra is a practicing physician, associate professor of medicine and an artist living in Aurora, Colorado. She is classically trained in realism art.
+            Mitra is a practicing physician, associate professor of medicine and an artist living in Aurora, Colorado. She is classically trained in realism art and is a member of Oil Painters of America (OPA).
           </h2>
         </div>
       </div>

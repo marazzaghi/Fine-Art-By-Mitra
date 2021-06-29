@@ -24,7 +24,6 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
-    featured: true,
   },
   {
     src: grayHue,
@@ -33,7 +32,6 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
-    featured: true,
   },
   {
     src: drape,
@@ -42,7 +40,6 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
-    featured: true,
   },
   {
     src: fruitColorBurst,
@@ -67,6 +64,7 @@ export const paintingsList = [
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: grandpasBook,
@@ -106,7 +104,8 @@ export const paintingsList = [
     size: '16 x 20',
     medium: 'Oil on Canvas',
     description: '',
-    cost: '',
+    cost: '', 
+    featured: true,
   },
   {
     src: theLake,
@@ -147,6 +146,7 @@ export const paintingsList = [
     medium: 'Oil on Hand-Made Canvas',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: lilly,

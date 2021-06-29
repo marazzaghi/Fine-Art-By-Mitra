@@ -23,7 +23,7 @@ export default function Home() {
         {featuredList.length === 0 
           ? "No Paintings Available"
           : featuredList.map(x => (
-            <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy})} />
+            <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />
           ))
         }
         <Modal show={show} onHide={handleClose} centered size="lg" dialogClassName="featuredArt">
