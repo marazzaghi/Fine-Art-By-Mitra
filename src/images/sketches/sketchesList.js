@@ -24,6 +24,7 @@ export const sketchesList = [
     medium: 'Graphite',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: fallenFeather,
@@ -32,6 +33,7 @@ export const sketchesList = [
     medium: 'Graphite',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: handSketch,
@@ -48,6 +50,7 @@ export const sketchesList = [
     medium: 'Graphite on hand-made paper',
     description: '',
     cost: '',
+    featured: true,
   },
   {
     src: eyeOfData,

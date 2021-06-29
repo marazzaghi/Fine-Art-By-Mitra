@@ -1,7 +1,21 @@
 #sketches {
-  background: #f8f8ff;
-  padding: 10px;
   margin-bottom: 2em;
+  background-image: url('../../images/siteImages/featuredArtBG.jpg');
+  background-size: 100% 100%;
+  padding-bottom: 5em;
+  
+  h2 {
+    background-color: #f8f8ff;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #sketches {
+    background: #f8f8ff;
+    padding: 10px;
+    margin-bottom: 2em;
+  }
 }
 
 #sketchesContent {
@@ -56,4 +70,9 @@
   a {
     color: white !important;
   }
+}
+
+#sketchesArrow {
+  width: 30px;
+  font-weight: bold;
 }

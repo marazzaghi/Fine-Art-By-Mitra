@@ -49,12 +49,13 @@ export default function ModalContents(img) {
       <Modal.Body>
         <Container>
           <Row>
-            <Col xs={12} md={6}>
-              <img src={img.img} id="modalImage"/>
+            <Col xs={12} md={6} id="modalImage">
+              <img src={img.img} />
             </Col>
             <Col xs={12} md={6}>
               <h3>{img.title}</h3>
               <p><b>Medium:</b> {img.medium}</p>
+              <p><b>Size:</b> {img.size}</p>
               {img.cost && (<p><b>Cost:</b> ${img.cost}</p>)}
               {img.description && (<p><b>Artist Notes:</b> {img.description}</p>)}
             </Col>

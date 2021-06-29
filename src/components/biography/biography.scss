@@ -1,13 +1,44 @@
 #bio {
-  background: #f8f8ff;
-  padding: 10px;
+  background-image: url('../../images/siteImages/aboutTheArtistBG.jpg');
+  background-size: 100% 100%;
   margin-bottom: 2em;
+
+  h2 {
+    background-color: #f8f8ff;
+    padding: 20px;
+  }
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
-@media only screen and (max-width: 1000px) {
-  
+@media only screen and (max-width: 1500px) {
+  #bio {
+    background: #f8f8ff;
+    padding: 10px;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #mitraPainting {
+    width: 75%;
+    margin-left: 40px;
+    margin-right: auto;
+    display: block;
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  #mitraPainting {
+    width: 75%;
+    margin-left: -60px;
+    margin-right: auto;
+    margin-top: 150px;
+  }
 }

@@ -1,8 +1,13 @@
 #contact {
-  background: #f8f8ff;
-  padding: 10px;
+  background-image: url('../../images/siteImages/featuredArtBG.jpg');
+  background-size: 100% 100%;
   margin-bottom: 2em;
-  position: relative;
+  padding-bottom: 25px;
+
+  h2 {
+    background-color: #f8f8ff;
+    padding: 20px;
+  }
 
   #contactForm {
     margin-right: auto;
@@ -13,6 +18,14 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #contact {
+    background: #f8f8ff;
+    padding: 10px;
+    margin-bottom: 2em;
   }
 }
 

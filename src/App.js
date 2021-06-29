@@ -8,6 +8,7 @@ import {
 import { Nav, Navbar } from 'react-bootstrap'
 
 import Header from './components/header/header'
+import SiteIntro from './components/siteIntro/siteIntro'
 import Home from './components/home/home'
 import Biography from './components/biography/biography'
 import Sketches from './components/sketches/sketches'
@@ -23,8 +24,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <div className="sticky">
+          <Header />
           <Navbar expand="lg" collapseOnSelect>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse collapseOnSelect id="responsive-navbar-nav">
@@ -43,6 +44,7 @@ function App() {
           </Navbar>
         </div>
         <div id="content">
+          <SiteIntro />
           <Home />
           <Biography />
           <Sketches />

@@ -6,6 +6,9 @@ import ModalContents from '../modalContents/modalContents'
 
 import  { paintingsList } from '../../images/paintings/paintingsList'
 
+import down from '../../images/siteImages/chevron-down.svg'
+import up from '../../images/siteImages/chevron-up.svg'
+
 export default function Paintings() {
   const [show, setShow] = useState(false)
   const [pic, setPic] = useState({})
@@ -20,12 +23,22 @@ export default function Paintings() {
   return (
     <div id="paintings">
       <h2 onClick={() => setOpen(!open)}>Paintings</h2>
+      {!open && (
+        <div id="featuredPaintings">
+          {paintingsList.length === 0 
+            ? "No Paintings Available"
+            : paintingsList.map(x => (
+              x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />)
+            ))
+          }
+        </div>
+      )}
       <Collapse in={open}>
         <div id="paintingsContent">  
           {paintingsList.length === 0 
             ? "No Paintings Available"
             : paintingsList.map(x => (
-              <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy})} />
+              <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />
             ))
           }
           <Modal show={show} onHide={handleClose} centered size="lg" dialogClassName="featuredArt">
@@ -33,6 +46,7 @@ export default function Paintings() {
           </Modal>
         </div>
       </Collapse>
+      <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
     </div>
   )
 }
