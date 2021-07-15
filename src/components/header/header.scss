@@ -5,3 +5,11 @@
   margin-right: auto; 
   border-bottom: 1px solid #797e81;
 }
+
+@media (max-width: 1000px) {
+  .header { 
+    h1 {
+      font-size: 24pt !important;
+    }
+  }
+}

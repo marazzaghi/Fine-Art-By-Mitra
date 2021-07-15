@@ -22,6 +22,7 @@ export default function Sketches() {
 
   return (
     <div id="sketches">
+      <span />
       <h2 onClick={() => setOpen(!open)}>Sketches</h2>
       {!open && 
         (<div id="featuredPaintings">
@@ -47,7 +48,7 @@ export default function Sketches() {
           </Modal>
         </div>
       </Collapse>
-      <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
+      <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow" href="#sketches" />
     </div>
   )
 }
