@@ -16,7 +16,7 @@
     background: #f8f8ff;
     padding: 10px;
     margin-bottom: 2em;
-    scroll-margin-top: 30em;
+    scroll-margin-top: 27em;
   }
 }
 
@@ -54,6 +54,18 @@
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
+  }
+}
+
+@media (min-width: 1000px) {
+  #paintings #mobileLink {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #paintings #paintingsArrow {
+    display: none;
   }
 }
 
