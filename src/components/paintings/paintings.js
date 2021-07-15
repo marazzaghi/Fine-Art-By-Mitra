@@ -22,6 +22,7 @@ export default function Paintings() {
 
   return (
     <div id="paintings">
+      <span id="paintingsJumpClosed" />
       <h2 onClick={() => setOpen(!open)}>Paintings</h2>
       {!open && (
         <div id="featuredPaintings">
@@ -34,7 +35,8 @@ export default function Paintings() {
         </div>
       )}
       <Collapse in={open}>
-        <div id="paintingsContent">  
+        <div id="paintingsContent">
+          <span id="paintingsJumpOpen" />
           {paintingsList.length === 0 
             ? "No Paintings Available"
             : paintingsList.map(x => (
@@ -47,6 +49,7 @@ export default function Paintings() {
         </div>
       </Collapse>
       <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
+      <a href={open ? "#paintingsJumpOpen" : "#paintingsJumpClosed"} id="mobileLink"><img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/></a>
     </div>
   )
 }

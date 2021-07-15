@@ -22,6 +22,7 @@ export default function Sketches() {
 
   return (
     <div id="sketches">
+      <span id="sketchJumpClosed" />
       <h2 onClick={() => setOpen(!open)}>Sketches</h2>
       {!open && 
         (<div id="featuredPaintings">
@@ -36,6 +37,7 @@ export default function Sketches() {
       }
       <Collapse in={open}>
         <div id="paintingsContent">  
+          <span id="sketchJumpOpen" />
           {sketchesList.length === 0 
             ? "No Paintings Available"
             : sketchesList.map(x => (
@@ -48,6 +50,7 @@ export default function Sketches() {
         </div>
       </Collapse>
       <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
+      <a href={open ? "#sketchJumpOpen" : "#sketchJumpClosed"} id="mobileLink"><img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/></a>
     </div>
   )
 }
