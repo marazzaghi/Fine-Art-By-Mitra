@@ -24,24 +24,21 @@ export default function Sketches() {
     <div id="sketches">
       <span id="sketchJumpClosed" />
       <h2 onClick={() => setOpen(!open)}>Sketches</h2>
-      {!open && 
-        (<div id="featuredPaintings">
-          {sketchesList.length === 0 
-            ? "No Paintings Available"
-            : sketchesList.map(x => (
-              x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />)
-            ))
-          }
-        </div>
-        )
-      }
+      <div id="featuredPaintings">
+        {sketchesList.length === 0 
+          ? "No Paintings Available"
+          : sketchesList.map(x => (
+            x?.featured && (<img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />)
+          ))
+        }
+      </div>
       <Collapse in={open}>
         <div id="paintingsContent">  
           <span id="sketchJumpOpen" />
           {sketchesList.length === 0 
             ? "No Paintings Available"
-            : sketchesList.map(x => (
-              <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />
+            : sketchesList.map(x => ( !x?.featured && (
+              <img src={x.src} alt={x.alt} onClick={() => handleShow({title: x.title, medium: x.medium, cost: x.cost, description: x.description, img: x.src, buy: x.buy, size: x.size})} />)
             ))
           }
           <Modal show={show} onHide={handleClose} centered size="lg" dialogClassName="featuredArt">
@@ -50,7 +47,7 @@ export default function Sketches() {
         </div>
       </Collapse>
       <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
-      <a href={open ? "#sketchJumpOpen" : "#sketchJumpClosed"} id="mobileLink"><img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/></a>
+      <a href={open ? "#sketchJumpOpen" : "#sketchJumpClosed"} id="mobileLink"><img src={open ? up: down} onClick={() => setOpen(!open)} /></a>
     </div>
   )
 }
