@@ -46,8 +46,7 @@ export default function Sketches() {
           </Modal>
         </div>
       </Collapse>
-      <img src={open ? up: down} onClick={() => setOpen(!open)} id="paintingsArrow"/>
-      <a href={open ? "#sketchJumpOpen" : "#sketchJumpClosed"} id="mobileLink"><img src={open ? up: down} onClick={() => setOpen(!open)} /></a>
+      <img src={open ? up: down} onClick={() => setOpen(!open)} />
     </div>
   )
 }
