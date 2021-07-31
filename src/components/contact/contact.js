@@ -54,41 +54,39 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <h2 onClick={() => setOpen(!open)}>Contact the Artist</h2>
+      <h2>Contact the Artist</h2>
       <Alert show={alertOpen} variant={variant} id="alert" dismissible onClose={() => setAlertOpen(false)}>
         <Alert.Heading />
         <p>
          {alertMessage}
         </p>
       </Alert>
-      <Collapse in={open}>
-        <Row>
-          <Col lg={7} id="contactForm">
-            <Form>
-            <p>Commissions: Contact us to discuss commissioning a piece of art of your own.</p>
-            <p>Posters: Prints available upon request.</p>
-            <Form.Group controlId="formBasicName">
-                <Form.Label>Name</Form.Label>
-                <Form.Control required placeholder="Enter name" onChange={(e) => setName(e.target.value)}/>
-              </Form.Group>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control required type="email" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)}/>
-                <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
-                </Form.Text>
-              </Form.Group>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Message to Artist</Form.Label>
-                <Form.Control required as="textarea" rows={3} onChange={(e) => setMessage(e.target.value)}/>
-              </Form.Group>
-              <Button variant="primary" onClick={() => sendEmail({name, email, message})}>
-                Submit
-              </Button>
-            </Form>
-          </Col>
-        </Row>
-      </Collapse>
+      <Row>
+        <Col lg={7} id="contactForm">
+          <Form>
+          <p>Commissions: Contact us to discuss commissioning a piece of art of your own.</p>
+          <p>Posters: Prints available upon request.</p>
+          <Form.Group controlId="formBasicName">
+              <Form.Label>Name</Form.Label>
+              <Form.Control required placeholder="Enter name" onChange={(e) => setName(e.target.value)}/>
+            </Form.Group>
+            <Form.Group controlId="formBasicEmail">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control required type="email" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)}/>
+              <Form.Text className="text-muted">
+                We'll never share your email with anyone else.
+              </Form.Text>
+            </Form.Group>
+            <Form.Group controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Message to Artist</Form.Label>
+              <Form.Control required as="textarea" rows={3} onChange={(e) => setMessage(e.target.value)}/>
+            </Form.Group>
+            <Button variant="primary" onClick={() => sendEmail({name, email, message})}>
+              Submit
+            </Button>
+          </Form>
+        </Col>
+      </Row>
     </div>
   )
 }

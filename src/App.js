@@ -30,27 +30,26 @@ function App() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse collapseOnSelect id="responsive-navbar-nav">
               <Nav className="navBar" as="div">
-                {/* <Nav.Link eventKey="home"><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link eventKey="home"><Link to="/">Home</Link></Nav.Link>
                 <Nav.Link eventKey="ata"><Link to="/bio">About the Artist</Link></Nav.Link>
                 <Nav.Link eventKey="sketches"><Link to="/sketches">Sketches</Link></Nav.Link>
                 <Nav.Link eventKey="paintings"><Link to="/paintings">Paintings</Link></Nav.Link>
-                <Nav.Link eventKey="contact"><Link to="/contact">Contact</Link></Nav.Link> */}
-                <Nav.Link activeClass="active" eventKey="ata" href="#bio">About the Artist</Nav.Link>
+                <Nav.Link eventKey="contact"><Link to="/contact">Contact</Link></Nav.Link>
+                {/* <Nav.Link activeClass="active" eventKey="ata" href="#bio">About the Artist</Nav.Link>
                 <Nav.Link activeClass="active" eventKey="sketches" href="#sketches">Sketches</Nav.Link>
                 <Nav.Link activeClass="active" eventKey="paintings" href="#paintings">Paintings</Nav.Link>
-                <Nav.Link activeClass="active" eventKey="contact" href="#contact">Contact</Nav.Link>
+                <Nav.Link activeClass="active" eventKey="contact" href="#contact">Contact</Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
         <div id="content">
-          <SiteIntro />
-          <Home />
+          {/* <Home />
           <Biography />
           <Sketches />
           <Paintings />
-          <Contact />
-          {/* <Switch>
+          <Contact /> */}
+          <Switch>
             <Route path="/bio">
               <Biography />
             </Route>
@@ -64,9 +63,10 @@ function App() {
               <Contact />
             </Route>
             <Route path="/">
+              <SiteIntro />
               <Home />
             </Route>
-          </Switch> */}
+          </Switch>
         </div>
       </Router>
       <Footer />
