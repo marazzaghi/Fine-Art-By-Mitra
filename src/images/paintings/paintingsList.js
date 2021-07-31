@@ -1,7 +1,6 @@
 import beautifulOrange from './Beautiful Orange-min.JPG'
 import blueHue from './Blue Hue-min.JPG'
 import coHikeTrail from './CO Hike Trail-min.jpeg'
-import drape from './Drape-min.jpg'
 import fallInRockyMountains from './Fall in Rocky Mountains-min.JPG'
 import fruitColorBurst from './Fruit Color Burst-min.JPG'
 import grandpasBook from './Grandpa\'s Book-min.JPG'
@@ -29,14 +28,6 @@ export const paintingsList = [
     src: grayHue,
     title: 'Gray Hue',
     size: '9 x 9',
-    medium: 'Oil on Canvas',
-    description: '',
-    cost: '',
-  },
-  {
-    src: drape,
-    title: 'The Drape',
-    size: '9 x 12',
     medium: 'Oil on Canvas',
     description: '',
     cost: '',
