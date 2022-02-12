@@ -154,6 +154,6 @@ export const paintingsList = [
     size: '16 x 20',
     medium: 'Oil on Canvas',
     description: '',
-    cost: '450',
+    cost: '',
  },
 ]
