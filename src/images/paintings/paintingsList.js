@@ -150,7 +150,7 @@ export const paintingsList = [
     cost: '',
   },
   {
-    src: poppyFlower,
+    src: 'poppyFlower',
     title: 'Poppy Flower',
     size: '16 x 20',
     medium: 'Oil on Canvas',
@@ -158,7 +158,7 @@ export const paintingsList = [
     cost: '',
  },
   {
-    src: snowkids,
+    src: 'snowkids',
     title: 'Happy Snowkids',
     size: '12 x 16',
     medium: 'Oil on Canvas',
