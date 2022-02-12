@@ -14,6 +14,7 @@ import theLake from './The Lake-min.JPG'
 import toyFox from './Toy fox-min.JPG'
 import whiteOrchids from './White Orchids-min.JPG'
 import grayHue from './Gray Hue-min.JPEG'
+import poppyflower from './Poppy Flower.JPEG'
 
 export const paintingsList = [
   {
@@ -147,4 +148,12 @@ export const paintingsList = [
     description: '',
     cost: '',
   },
+  {
+ src: Poppy Flower,
+ title: 'Poppy Flower’,
+ size: ‘16 x 20',
+ medium: ‘Oil on Canvas’,
+ description: '',
+ cost: ‘450’,
+ },
 ]
