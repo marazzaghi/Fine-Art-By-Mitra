@@ -15,6 +15,7 @@ import toyFox from './Toy fox-min.JPG'
 import whiteOrchids from './White Orchids-min.JPG'
 import grayHue from './Gray Hue-min.JPEG'
 import poppyFlower from './Poppy Flower.JPG'
+import snowkids from './Snowkids.jpeg'
 
 export const paintingsList = [
   {
@@ -156,4 +157,12 @@ export const paintingsList = [
     description: '',
     cost: '',
  },
+  {
+    src: snowkids,
+    title: 'Happy Snowkids',
+    size: '12 x 16',
+    medium: 'Oil on Canvas',
+    description: '',
+    cost: '',
+  },
 ]
