@@ -14,7 +14,7 @@ import theLake from './The Lake-min.JPG'
 import toyFox from './Toy fox-min.JPG'
 import whiteOrchids from './White Orchids-min.JPG'
 import grayHue from './Gray Hue-min.JPEG'
-import poppyflower from './Poppy Flower.JPG'
+import poppyFlower from './Poppy Flower-min.JPG'
 
 export const paintingsList = [
   {
