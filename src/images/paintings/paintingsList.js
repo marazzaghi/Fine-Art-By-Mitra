@@ -149,11 +149,11 @@ export const paintingsList = [
     cost: '',
   },
   {
- src: Poppy Flower,
- title: 'Poppy Flower’,
- size: ‘16 x 20',
- medium: ‘Oil on Canvas’,
- description: '',
- cost: ‘450’,
+    src: PoppyFlower,
+    title: 'Poppy Flower’,
+    size: ‘16 x 20',
+    medium: ‘Oil on Canvas’,
+    description: '',
+    cost: ‘450’,
  },
 ]
